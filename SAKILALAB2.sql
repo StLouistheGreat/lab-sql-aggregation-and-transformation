@@ -60,10 +60,6 @@ HAVING AVG(length) > 120
 ORDER BY AVG(length) DESC;
 
 -- 3
-SELECT DISTINCT last_name
-FROM actor
-GROUP BY last_name;
-
 SELECT last_name
 FROM actor
 GROUP BY last_name
